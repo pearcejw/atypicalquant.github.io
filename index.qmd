@@ -1,11 +1,16 @@
 ---
-title: "atypicalquant.github.io"
+title: "(α)typicalquant"
 ---
 
-This is a Quarto website.
+This is a personal website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+All views are my own.
 
-```{r}
-1 + 1
+This website was built with Quarto. To learn more visit <https://quarto.org/docs/websites>.
+
+```{r} 1 + 1}
+```
+
+```{=html}
+“<a href="https://www.flickr.com/photos/nasawebbtelescope/55118095230" title="NASA Reveals New Details About Dark Matter’s Influence on Universe">NASA Reveals New Details About Dark Matter’s Influence on Universe</a>” by <a href="https://www.flickr.com/photos/nasawebbtelescope/">NASA's James Webb Space Telescope</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener noreferrer">CC BY 4.0</a>
 ```
