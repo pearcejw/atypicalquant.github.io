@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+Notes.md
+/.quarto/
+**/*.quarto_ipynb
+# Ignores the rendered /_site folder, for now
+/_site/ 

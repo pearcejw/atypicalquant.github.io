@@ -10,6 +10,12 @@ website:
         text: About
       - talks.qmd
       - thoughts.qmd
+      # - text: Tools
+      #   menu:
+      #     - text: Optimizer
+      #       href: optimizer.qmd
+      #     - text: Google
+      #       href: https://www.google.com
       - icon: github
         href: https://github.com/pearcejw
       - icon: linkedin
