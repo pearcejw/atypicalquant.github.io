@@ -2,12 +2,20 @@ project:
   type: website
 
 website:
-  title: "atypicalquant.github.io"
+  title: "(α)typicalquant"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    foreground: "white"
+    right:
+      - href: about.qmd
+        text: About
+      - talks.qmd
+      - thoughts.qmd
+      - icon: github
+        href: https://github.com/pearcejw
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pearcejw/
+      - icon: envelope
+        href: mailto:john@atypicalquant.com
 
 format:
   html:

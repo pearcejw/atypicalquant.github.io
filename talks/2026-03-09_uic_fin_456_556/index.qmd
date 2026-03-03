@@ -1,0 +1,21 @@
+---
+title: "Lessons from Both Sides of the Table"
+subtitle: "UIC Advanced Investment Management"
+author: "John W. Pearce, CFA, CAIA"
+date: 2026-03-09
+categories: [UIC]
+---
+
+I will be speaking during both sections of John Wightkin's Advanced Investment Management course on March 9, 2026.
+
+# Agenda
+
+Agenda:
+
+-   A
+
+-   B
+
+-   C
+
+# Resources

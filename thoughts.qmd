@@ -1,0 +1,8 @@
+---
+title: "Thoughts"
+listing: 
+  contents: thoughts
+  type: default
+  sort: "date desc"
+  categories: true
+---

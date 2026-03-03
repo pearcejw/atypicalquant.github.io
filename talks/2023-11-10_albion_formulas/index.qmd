@@ -1,0 +1,37 @@
+---
+title: "Formulas for Turning Your Passion into a Career"
+subtitle: "Albion College Gerstacker Institute 50th Anniversary Celebration"
+author: "John W. Pearce, CFA"
+date: 2023-11-10
+categories: [Albion]
+---
+
+I was invited to speak at the Albion College Gerstacker Institute 50th Anniversary Celebration.
+
+![Title Slide Image](formulas_titlecard.png)
+
+# Agenda
+
+Agenda:
+
+-   Background
+    -   About Me
+    -   My Time at Albion College
+    -   NorthPointe Capital and (A) Moneyball Formula
+    -   IMRF and the Pension Equation
+-   Three Frameworks
+    -   Life on a Galton Board
+    -   Quantim Theory of Wealth
+    -   The Shape of \[Risk\] Stories
+-   Conclusion
+    -   My Formula for a Fulfilling Career?
+    -   My Formula for Life?
+
+# Resources
+
+```{=html}
+
+<iframe src="formulas_web.pdf" title="Embedded PDF Viewer" width="100%" height="500px">
+    <p>Your browser does not support iframes. <a href="formulas_web.pdf">Download the PDF</a>.</p>
+</iframe>
+```

@@ -1,1 +1,8 @@
 /* css styles */
+
+.navbar {
+  background-image: url('images/55118095230_6a44153be6_k_large.jpg');
+  background-size: cover; /* Adjusts the image size to cover the entire navbar area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
+}

@@ -1,0 +1,26 @@
+---
+title: "Chief Investment Officer NextGen"
+subtitle: "Class of 2023"
+author: "John W. Pearce, CFA"
+date: 2023-08-31
+categories: [Pension Funds, Honors, Interviews]
+---
+
+I was named as a "rising star" by Chief Investment Officer magazine in its Class of 2023 NextGens. I provided responses to six questions that were later published.
+
+# Read the Full Interview
+
+My interview can be found here: [John Pearce - CIO Class of 2023 NextGen](https://www.ai-cio.com/lists/class-of-2023-nextgen/).
+
+[![](cio_nextgen_image.png)](https://www.ai-cio.com/lists/class-of-2023-nextgen/)
+
+````{=html}
+<!--
+```{=html}
+
+<iframe src="uk_pension_stress.pdf" title="Embedded PDF Viewer" width="100%" height="500px">
+    <p>Your browser does not support iframes. <a href="ten_lessons.pdf">Download the PDF</a>.</p>
+</iframe>
+```
+-->
+````

@@ -1,9 +1,59 @@
 ---
-title: "About"
+title: "John W. Pearce, CFA, CAIA"
+about:
+  id: hero-heading
+  template: broadside
+  image: images/avatar.jpg
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/pearcejw
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pearcejw/
+    - icon: envelope
+      text: Email
+      href: mailto:john@atypicalquant.com
 ---
 
+::: {#hero-heading}
+<!-- John W. Pearce, CFA, CAIA is a Portfolio Manager at [Illinois Municipal Retirement Fund](https://www.imrf.org/) (IMRF). Previously, he served as Director of Quantitative Research for NorthPointe Capital. -->
+
+# Professional Experience
+
+**Illinois Municipal Retirement Fund (IMRF)** \| Oak Brook, IL
+
+Equity Portfolio Manager -- Internal Management
+
+**NorthPointe Capital** \| Bloomfield Hills, MI
+
+Director of Quantitative Research
+
+# Education
+
+**University of Chicago Booth School of Business** \| Chicago, IL MBA in Finance, Analytic Finance, and Behavioral Science \| 2023
+
+**Albion College** \| Albion, MI BA in Mathematics and Economics \| 2011
+
+:::
+
+# Biography
+
+John is a Portfolio Manager at [Illinois Municipal Retirement Fund](https://www.imrf.org/). IMRF serves nearly 500,000 employees representing more than 3,000 employers throughout Illinois. IMRF is nationally recognized for excellence in the public pension community having received the Malcolm Baldrige National Quality Award in 2019 and maintaining an actuarial funding ratio near 100%. Pearce joined IMRF in 2019 to launch an internal equity management program and brings his experience in quantitative portfolio management to provide cost-efficient exposure to beneficial factor premia for the fund. Pearce and his team are responsible for \~\$5.5 billion of assets representing \~11% of IMRF’s total portfolio.
+
+Previously, Pearce served as Director of Quantitative Research for NorthPointe Capital where he oversaw the development of quantitative models and application to domestic equity strategies. Pearce graduated with an MBA from the University of Chicago Booth School of Business as a Wallman Scholar (High Honors) with concentrations in Analytic Finance and Behavioral Science. He completed his undergraduate degree in Mathematics and Economics at Albion College, Magna Cum Laude, Phi Beta Kappa. Pearce is a member of the CFA Society of Chicago and Chicago Quantitative Alliance, and was recognized in Chief Investment Officer magazine’s [Class of 2023 NextGens](https://www.ai-cio.com/lists/class-of-2023-nextgens/?pid=83626).
+
+Outside of his professional activities, John can be found spending time with his family or on the golf course.
+
+````{=html}
+<!--
 About this site
 
 ```{r}
 1 + 1
 ```
+
+-->
+````
