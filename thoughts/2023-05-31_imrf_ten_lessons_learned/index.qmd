@@ -54,7 +54,7 @@ Asset owners are increasingly investigating and implementing internal asset mana
 
 The full report is available upon request.
 
-[![](ten_lessons_image.png)](mailto:john@atypicalquant.com?subject=Requesting%the%Full%Ten%Lessons%Report)
+[![](ten_lessons_image.png)](mailto:john@atypicalquant.com?subject=Requesting%20the%20Full%20Ten%20Lessons%20Report)
 
 ````{=html}
 <!--
