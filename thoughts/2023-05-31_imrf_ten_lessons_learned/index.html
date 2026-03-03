@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="John W. Pearce, CFA">
+<meta name="dcterms.date" content="2023-05-31">
 
-<title>(α)typicalquant</title>
+<title>Ten Lessons about Internal Asset Management – (α)typicalquant</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e8be4026f76d8ce3e504326db4fee920.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e8be4026f76d8ce3e504326db4fee920.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,19 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: black;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: black;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">(α)typicalquant</span>
     </a>
   </div>
@@ -91,15 +109,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./thoughts.html"> 
+    <a class="nav-link" href="../../thoughts.html"> 
 <span class="menu-text">Thoughts</span></a>
   </li>  
   <li class="nav-item compact">
@@ -125,41 +143,102 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Ten Lessons about Internal Asset Management</h1>
+            <p class="subtitle lead">IMRF Whitepaper</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Internal Management</div>
+                <div class="quarto-category">Pension Funds</div>
+                <div class="quarto-category">Factor Investing</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>John W. Pearce, CFA </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 31, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#request-the-full-report" id="toc-request-the-full-report" class="nav-link" data-scroll-target="#request-the-full-report">Request the Full Report</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">(α)typicalquant</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="executive-summary" class="level1">
+<h1>Executive Summary</h1>
+<p>Asset owners are increasingly investigating and implementing internal asset management programs. The Illinois Municipal Retirement Fund (IMRF) launched its program in 2019. My coauthors and I share as insights “Ten Lessons Learned About Internal Asset Management”:</p>
+<ol type="1">
+<li><p><strong>Understand Your “Why”</strong></p>
+<p>Flexibility, transparency, and alignment with the unique goals of your organization are at least as attractive as potential cost savings at scale.</p></li>
+<li><p><strong>Substitute or Complement?</strong></p>
+<p>Both. Maintaining an internal management program can help you get the best out of your external managers.</p></li>
+<li><p><strong>Rationalize Your Alpha Expectations…</strong></p>
+<p>Active management is challenging. Your expectations should be proportionate to your resources.</p></li>
+<li><p><strong>…and Your Beta Expectations, too</strong></p>
+<p>Passive management is challenging. No, really, it is.</p></li>
+<li><p><strong>Hire the Right Skillset</strong></p>
+<p>Asset owners may need to hire externally to find employees with relevant asset management experience.</p></li>
+<li><p><strong>Culture Fit is Important</strong></p>
+<p>Buy-side transplants will bring a new dynamic to an asset owner organization. Prepare each side to make a good first impression.</p></li>
+<li><p><strong>Understand Incentives</strong></p>
+<p>Shifting towards internal management exchanges one set of incentives for another through risk and reward motivations.</p></li>
+<li><p><strong>The Devil is in the (Operational) Details</strong></p>
+<p>Operational missteps can scuttle a new program. Manage operational risk with comprehensive documentation and careful attention to detail.</p></li>
+<li><p><strong>Vendor Management is Key</strong></p>
+<p>Thoughtfully select vendor partnerships who can champion your initiative.</p></li>
+<li><p><strong>Have a (Flexible) Long-Term Vision</strong></p>
+<p>When getting started, don’t let perfect be the enemy of good.</p></li>
+</ol>
+</section>
+<section id="request-the-full-report" class="level1">
+<h1>Request the Full Report</h1>
+<p>The full report is available upon request.</p>
+<p><a href="mailto:john@atypicalquant.com?subject=Requesting%the%Full%Ten%Lessons%Report"><img src="ten_lessons_image.png" class="img-fluid"></a></p>
+<!--
+```{=html}
+
+<iframe src="ten_lessons.pdf" title="Embedded PDF Viewer" width="100%" height="500px">
+    <p>Your browser does not support iframes. <a href="ten_lessons.pdf">Download the PDF</a>.</p>
+</iframe>
+```
+-->
+<!-- a -->
 
 
-<p>This is a personal website.</p>
-<p>All views are my own.</p>
-<p>This website was built with Quarto. To learn more visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<pre class="{r} 1 + 1}"><code></code></pre>
-“<a href="https://www.flickr.com/photos/nasawebbtelescope/55118095230" title="NASA Reveals New Details About Dark Matter’s Influence on Universe">NASA Reveals New Details About Dark Matter’s Influence on Universe</a>” by <a href="https://www.flickr.com/photos/nasawebbtelescope/">NASA's James Webb Space Telescope</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener noreferrer">CC BY 4.0</a>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

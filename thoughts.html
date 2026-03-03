@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>(α)typicalquant</title>
+<title>Thoughts – (α)typicalquant</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -68,7 +70,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./thoughts.html"> 
+    <a class="nav-link active" href="./thoughts.html" aria-current="page"> 
 <span class="menu-text">Thoughts</span></a>
   </li>  
   <li class="nav-item compact">
@@ -128,15 +188,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RmFjdG9yJTIwSW52ZXN0aW5n">Factor Investing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SG9ub3Jz">Honors <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW50ZXJuYWwlMjBNYW5hZ2VtZW50">Internal Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW50ZXJ2aWV3cw==">Interviews <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TWFjcm8=">Macro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVuc2lvbiUyMEZ1bmRz">Pension Funds <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Umlzaw==">Risk <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">(α)typicalquant</h1>
+<h1 class="title">Thoughts</h1>
 </div>
 
 
@@ -153,15 +213,229 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a personal website.</p>
-<p>All views are my own.</p>
-<p>This website was built with Quarto. To learn more visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<pre class="{r} 1 + 1}"><code></code></pre>
-“<a href="https://www.flickr.com/photos/nasawebbtelescope/55118095230" title="NASA Reveals New Details About Dark Matter’s Influence on Universe">NASA Reveals New Details About Dark Matter’s Influence on Universe</a>” by <a href="https://www.flickr.com/photos/nasawebbtelescope/">NASA's James Webb Space Telescope</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener noreferrer">CC BY 4.0</a>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="SW50ZXJ2aWV3cyUyQ0FJ" data-listing-date-sort="1727654400000" data-listing-file-modified-sort="1772496109394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+<div class="thumbnail"><a href="./thoughts/2024-09-30_mg_ai_impact/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2024-09-30_mg_ai_impact/ai_impact_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2024-09-30_mg_ai_impact/index.html" class="no-external">How AI Might Impact the Future of Investments</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2024-09-30_mg_ai_impact/index.html" class="no-external">Markets Group</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJ2aWV3cw=='); return false;">Interviews</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2024-09-30_mg_ai_impact/index.html" class="no-external">
+I was interviewed by Markets Group for a feature on the impact of AI on the Future of Investments.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2024-09-30_mg_ai_impact/index.html" class="no-external">
+<div class="listing-date">
+Sep 30, 2024
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="SW50ZXJ2aWV3cyUyQ01hY3Jv" data-listing-date-sort="1707264000000" data-listing-file-modified-sort="1772496109391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="thumbnail"><a href="./thoughts/2024-02-07_cio_monetary_policy/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2024-02-07_cio_monetary_policy/monetary_policy_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2024-02-07_cio_monetary_policy/index.html" class="no-external">What Monetary Policy Means for Portfolio Returns</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2024-02-07_cio_monetary_policy/index.html" class="no-external">CIO Magazine</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJ2aWV3cw=='); return false;">Interviews</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjcm8='); return false;">Macro</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2024-02-07_cio_monetary_policy/index.html" class="no-external">
+I participated as a panelist in a Chief Investment Officer magazine discussion on the impact of monetary policy for markets in 2024. Quotes of mine were later published into…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2024-02-07_cio_monetary_policy/index.html" class="no-external">
+<div class="listing-date">
+Feb 7, 2024
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="SW50ZXJ2aWV3cyUyQ0FJ" data-listing-date-sort="1693526400000" data-listing-file-modified-sort="1772496109391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="thumbnail"><a href="./thoughts/2023-09-01_cio_ai_change/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2023-09-01_cio_ai_change/ai_change_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2023-09-01_cio_ai_change/index.html" class="no-external">How will AI Change Institutional Investing?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2023-09-01_cio_ai_change/index.html" class="no-external">CIO Magazine</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJ2aWV3cw=='); return false;">Interviews</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2023-09-01_cio_ai_change/index.html" class="no-external">
+I was quoted by Chief Investment Officer magazine an article on the impact of AI in Institutional Investing.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2023-09-01_cio_ai_change/index.html" class="no-external">
+<div class="listing-date">
+Sep 1, 2023
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UGVuc2lvbiUyMEZ1bmRzJTJDSG9ub3JzJTJDSW50ZXJ2aWV3cw==" data-listing-date-sort="1693440000000" data-listing-file-modified-sort="1772496109390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="thumbnail"><a href="./thoughts/2023-08-31_cio_nextgens/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2023-08-31_cio_nextgens/cio_nextgen_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2023-08-31_cio_nextgens/index.html" class="no-external">Chief Investment Officer NextGen</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2023-08-31_cio_nextgens/index.html" class="no-external">Class of 2023</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVuc2lvbiUyMEZ1bmRz'); return false;">Pension Funds</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SG9ub3Jz'); return false;">Honors</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJ2aWV3cw=='); return false;">Interviews</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2023-08-31_cio_nextgens/index.html" class="no-external">
+I was named as a “rising star” by Chief Investment Officer magazine in its Class of 2023 NextGens. I provided responses to six questions that were later published.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2023-08-31_cio_nextgens/index.html" class="no-external">
+<div class="listing-date">
+Aug 31, 2023
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="UGVuc2lvbiUyMEZ1bmRzJTJDUmlzaw==" data-listing-date-sort="1688083200000" data-listing-file-modified-sort="1772496109386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="thumbnail"><a href="./thoughts/2023-06-30_chifed_uk_pension_stress/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2023-06-30_chifed_uk_pension_stress/uk_pension_stress_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2023-06-30_chifed_uk_pension_stress/index.html" class="no-external">UK Pension Market Stress in 2022</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2023-06-30_chifed_uk_pension_stress/index.html" class="no-external">Comments on Chicago Fed Publication</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVuc2lvbiUyMEZ1bmRz'); return false;">Pension Funds</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Umlzaw=='); return false;">Risk</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2023-06-30_chifed_uk_pension_stress/index.html" class="no-external">
+In the aftermath of the so called “Gilt Crisis” in September and October 2022, researchers at the Chicago Fed were assessing to what extent a similar event in the US…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2023-06-30_chifed_uk_pension_stress/index.html" class="no-external">
+<div class="listing-date">
+Jun 30, 2023
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="SW50ZXJuYWwlMjBNYW5hZ2VtZW50JTJDUGVuc2lvbiUyMEZ1bmRzJTJDRmFjdG9yJTIwSW52ZXN0aW5n" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1772496109385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="thumbnail"><a href="./thoughts/2023-05-31_imrf_ten_lessons_learned/index.html" class="no-external">
+
+<p class="card-img-top"><img src="thoughts/2023-05-31_imrf_ten_lessons_learned/ten_lessons_image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./thoughts/2023-05-31_imrf_ten_lessons_learned/index.html" class="no-external">Ten Lessons about Internal Asset Management</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./thoughts/2023-05-31_imrf_ten_lessons_learned/index.html" class="no-external">IMRF Whitepaper</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJuYWwlMjBNYW5hZ2VtZW50'); return false;">Internal Management</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVuc2lvbiUyMEZ1bmRz'); return false;">Pension Funds</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmFjdG9yJTIwSW52ZXN0aW5n'); return false;">Factor Investing</div>
+
+</div>
+<div class="delink listing-description"><a href="./thoughts/2023-05-31_imrf_ten_lessons_learned/index.html" class="no-external">
+Asset owners are increasingly investigating and implementing internal asset management programs. The Illinois Municipal Retirement Fund (IMRF) launched its program in 2019.…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./thoughts/2023-05-31_imrf_ten_lessons_learned/index.html" class="no-external">
+<div class="listing-date">
+May 31, 2023
+</div>
+<div class="listing-author">
+John W. Pearce, CFA
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
