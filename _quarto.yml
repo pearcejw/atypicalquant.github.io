@@ -12,10 +12,10 @@ website:
       - thoughts.qmd
       - text: Tools
           menu:
-            - text: Optimizer
-              href: https://pearcejw.shinyapps.io/optimizer/
-      #     - text: Google
-      #       href: https://www.google.com
+          - text: Optimizer
+            href: https://pearcejw.shinyapps.io/optimizer/
+          - text: Google
+            href: https://www.google.com
       - icon: github
         href: https://github.com/pearcejw
       - icon: linkedin
