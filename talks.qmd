@@ -6,3 +6,7 @@ listing:
   sort: "date desc"
   categories: true
 ---
+
+Details about my upcoming and prior speaking engagements are linked here:
+
+<hr>

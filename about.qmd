@@ -1,5 +1,6 @@
 ---
 title: "John W. Pearce, CFA, CAIA"
+subtitle: "Investment Professional | Creator of (α)typicalquant"
 about:
   id: hero-heading
   template: broadside
@@ -16,30 +17,27 @@ about:
     - icon: envelope
       text: Email
       href: mailto:john@atypicalquant.com
+toc: false
 ---
 
 ::: {#hero-heading}
 <!-- John W. Pearce, CFA, CAIA is a Portfolio Manager at [Illinois Municipal Retirement Fund](https://www.imrf.org/) (IMRF). Previously, he served as Director of Quantitative Research for NorthPointe Capital. -->
 
-# Professional Experience
+### Professional Experience
 
-**Illinois Municipal Retirement Fund (IMRF)** \| Oak Brook, IL
+**Illinois Municipal Retirement Fund (IMRF)** \| Oak Brook, IL <br> Equity Portfolio Manager -- Internal Management
 
-Equity Portfolio Manager -- Internal Management
+**NorthPointe Capital** \| Bloomfield Hills, MI <br> Director of Quantitative Research
 
-**NorthPointe Capital** \| Bloomfield Hills, MI
+### Education
 
-Director of Quantitative Research
+**University of Chicago Booth School of Business** \| Chicago, IL <br> MBA in Finance, Analytic Finance, and Behavioral Science \| 2023
 
-# Education
-
-**University of Chicago Booth School of Business** \| Chicago, IL MBA in Finance, Analytic Finance, and Behavioral Science \| 2023
-
-**Albion College** \| Albion, MI BA in Mathematics and Economics \| 2011
+**Albion College** \| Albion, MI <br> BA in Mathematics and Economics \| 2011
 
 :::
 
-# Biography
+### Biography
 
 John W. Pearce, CFA, CAIA is a Portfolio Manager at [Illinois Municipal Retirement Fund](https://www.imrf.org/). IMRF serves nearly 500,000 employees representing more than 3,000 employers throughout Illinois. IMRF is nationally recognized for excellence in the public pension community having received the Malcolm Baldrige National Quality Award in 2019 and maintaining an actuarial funding ratio near 100%. Pearce joined IMRF in 2019 to launch an internal equity management program and brings his experience in quantitative portfolio management to provide cost-efficient exposure to beneficial factor premia for the fund. Pearce and his team are responsible for \~\$8 billion of assets representing \~12.5% of IMRF’s total portfolio.
 

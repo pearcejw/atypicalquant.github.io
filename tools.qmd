@@ -1,0 +1,14 @@
+---
+title: "Tools"
+# author: "John W. Pearce, CFA, CAIA"
+format: html
+# draft: true
+---
+
+Ideally, (α)typicalquant will become a repository for a variety of tools. Basic information about those tools will be posted here.
+
+<hr>
+
+# Portfolio Optimizer
+
+The [Portfolio Optimizer](https://pearcejw.shinyapps.io/optimizer/ "Launch the Portfolio Optimizer Tool"){target="_blank"} is a Shiny app that is hosted on [Posit](https://posit.co/){target="_blank"}'s [shinyapps.io](https://www.shinyapps.io/){target="_blank"} platform. It was built with help from [Anthropic Claude](https://claude.ai/){target="_blank"} Sonnet 4.6. The source code is available on [GitHub](https://github.com/pearcejw/optimizer){target="_blank"}.

@@ -1,21 +1,51 @@
 ---
 title: "(α)typicalquant"
+listing:
+  - id: talks
+    contents: talks
+    max-items: 3
+    sort: "date desc"
+    type: grid
+  - id: thoughts
+    contents: thoughts
+    max-items: 3
+    sort: "date desc"
+    type: grid
 ---
 
-This is a personal website.
+Welcome to (α)typicalquant, [my](about.qmd "About Me") personal website.
 
-All views are my own.
+[**Important Disclaimer:**]{.underline} All views on (α)typicalquant are my own and are not reflective of the views of my employer or any other organization I am affiliated with. The content of this website is intended for informational purposes only and does not represent investment advice or solicitation for investment.
 
-```{r} 
+# What You'll Find on (α)typicalquant
 
-1 + 1
+## About
 
-```
+Learn more about me at the [About](about.qmd) page.
+
+## Talks
+
+Details about my speaking engagements are on the [Talks](talks.qmd) page. A few of my upcoming and recent are listed here:
+
+::: {#talks}
+:::
+
+## Thoughts
+
+I have collected articles of interest on the [Thoughts](thoughts.qmd) page. Here are a few recent posts:
+
+::: {#thoughts}
+:::
+
+## Tools
+
+A variety of [Tools](tools.qmd) that I built are available to try out.
+
+# Acknowledgements
 
 <hr>
 
 This website was built with Quarto. To learn more visit <https://quarto.org/docs/websites>.
-
 
 <hr>
 
