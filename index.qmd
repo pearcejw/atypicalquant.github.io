@@ -16,6 +16,7 @@ All views are my own.
 
 This website was built with Quarto. To learn more visit <https://quarto.org/docs/websites>.
 
+
 <hr>
 
 ```{=html}
