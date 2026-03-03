@@ -11,9 +11,9 @@ website:
       - talks.qmd
       - thoughts.qmd
       - text: Tools
-        menu:
-          - text: Optimizer
-            href: https://pearcejw.shinyapps.io/optimizer/
+          menu:
+            - text: Optimizer
+              href: https://pearcejw.shinyapps.io/optimizer/
       #     - text: Google
       #       href: https://www.google.com
       - icon: github
