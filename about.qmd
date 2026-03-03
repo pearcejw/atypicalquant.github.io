@@ -11,9 +11,11 @@ about:
     - icon: github
       text: Github
       href: https://github.com/pearcejw
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/pearcejw/
+      target: _blank
     - icon: envelope
       text: Email
       href: mailto:john@atypicalquant.com

@@ -5,7 +5,7 @@ format: html
 # draft: true
 ---
 
-Ideally, (α)typicalquant will become a repository for a variety of tools. Basic information about those tools will be posted here.
+Ideally, (α)typicalquant will become a repository for a variety of tools that I built. Basic information about those tools will be posted here.
 
 <hr>
 

@@ -21,10 +21,13 @@ website:
           #   href: https://www.google.com
       - icon: github
         href: https://github.com/pearcejw
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/pearcejw/
+        target: _blank
       - icon: envelope
         href: mailto:john@atypicalquant.com
+        target: _blank
 
 format:
   html:

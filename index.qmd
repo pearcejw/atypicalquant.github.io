@@ -21,7 +21,7 @@ Welcome to (α)typicalquant, [my](about.qmd "About Me") personal website.
 
 ## About
 
-Learn more about me at the [About](about.qmd) page.
+Learn more [About](about.qmd) me.
 
 ## Talks
 

@@ -7,6 +7,6 @@ listing:
   categories: true
 ---
 
-I have collected articles of interest here.
+The Thoughts page is a collection of articles of interest.
 
 <hr>
